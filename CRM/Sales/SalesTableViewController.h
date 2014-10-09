@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SalesTableViewController.h
 //  CRM
 //
 //  Created by Diego Serrano on 10/4/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SalesTableViewController : UITableViewController
 
 @end
-
