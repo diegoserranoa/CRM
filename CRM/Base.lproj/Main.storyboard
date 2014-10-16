@@ -147,7 +147,7 @@
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2j-i3-fey">
                                             <rect key="frame" x="8" y="39" width="584" height="64"/>
-                                            <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor faucibus ullamcorper. Maecenas ac mattis libero, id bibendum enim. Phasellus viverra ac eros sed iaculis. Praesent porta quis dolor id pellentesque. Morbi congue consequat ultrices. Aliquam orci dui, elementum sit amet tempor sit amet, porta nec sapien. Duis in molestie urna. Pellentesque at nisl tempor, molestie erat a, accumsan elit. In bibendum magna sit amet sem viverra, blandit consequat risus lobortis.</string>
+                                            <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor faucibus ullamcorper. Maecenas ac mattis libero, id bibendum enim. Phasellus viverra ac eros sed iaculis. Praesent porta quis dolor id pellentesque. Morbi congue consequat ultrices. Aliquam orci dui, elementum sit amet tempor sit amet, porta nec sapien. </string>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
