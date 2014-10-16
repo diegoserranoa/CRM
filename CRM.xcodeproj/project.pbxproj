@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0A43B119EF571B00645630 /* SalesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A43B019EF571B00645630 /* SalesTableViewCell.m */; };
+		7E0A43B519EF5AE000645630 /* SalesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0A43B419EF5AE000645630 /* SalesDetailViewController.m */; };
 		7EC0C1C919E0EAA6009E54AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C1C819E0EAA6009E54AD /* main.m */; };
 		7EC0C1CC19E0EAA6009E54AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0C1CB19E0EAA6009E54AD /* AppDelegate.m */; };
 		7EC0C1D219E0EAA6009E54AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC0C1D019E0EAA6009E54AD /* Main.storyboard */; };
@@ -29,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		332B4CB3748F3D18F88EB677 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0A43AF19EF571B00645630 /* SalesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SalesTableViewCell.h; path = Sales/SalesTableViewCell.h; sourceTree = "<group>"; };
+		7E0A43B019EF571B00645630 /* SalesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SalesTableViewCell.m; path = Sales/SalesTableViewCell.m; sourceTree = "<group>"; };
+		7E0A43B319EF5AE000645630 /* SalesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesDetailViewController.h; sourceTree = "<group>"; };
+		7E0A43B419EF5AE000645630 /* SalesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesDetailViewController.m; sourceTree = "<group>"; };
 		7EC0C1C319E0EAA6009E54AD /* CRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC0C1C719E0EAA6009E54AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC0C1C819E0EAA6009E54AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,6 +145,10 @@
 			children = (
 				7EC0C1ED19E0EE5C009E54AD /* SalesTableViewController.h */,
 				7EC0C1EE19E0EE5C009E54AD /* SalesTableViewController.m */,
+				7E0A43AF19EF571B00645630 /* SalesTableViewCell.h */,
+				7E0A43B019EF571B00645630 /* SalesTableViewCell.m */,
+				7E0A43B319EF5AE000645630 /* SalesDetailViewController.h */,
+				7E0A43B419EF5AE000645630 /* SalesDetailViewController.m */,
 			);
 			name = Sales;
 			sourceTree = "<group>";
@@ -288,7 +298,9 @@
 			files = (
 				7EC0C1CC19E0EAA6009E54AD /* AppDelegate.m in Sources */,
 				7EC0C1C919E0EAA6009E54AD /* main.m in Sources */,
+				7E0A43B119EF571B00645630 /* SalesTableViewCell.m in Sources */,
 				7EC0C1EF19E0EE5C009E54AD /* SalesTableViewController.m in Sources */,
+				7E0A43B519EF5AE000645630 /* SalesDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "SalesTableViewController.h"
+#import "SalesTableViewCell.h"
 #import <AFNetworking/AFNetworking.h>
 
 @interface SalesTableViewController ()
@@ -19,46 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSArray *duraciones = @[
-                            @"0.96",
-                            @"3.85",
-                            @"0.83",
-                            @"0.9",
-                            @"1.7",
-                            @"2.32",
-                            @"0.74",
-                            @"0.77",
-                            @"1.23",
-                            @"1.02",
-                            @"0.89",
-                            @"3.87",
-                            @"4.4",
-                            @"1.76",
-                            @"1.59",
-                            @"1.22",
-                            @"0.95",
-                            @"0.62",
-                            @"2.65",
-                            @"1.19",
-                            @"2.53",
-                            @"0.74",
-                            @"1.06",
-                            @"1.99",
-                            @"1.68",
-                            @"4.18",
-                            @"2.22",
-                            @"4.51",
-                            @"1.48"
-                            ];
-    NSString *funcionObjetivo = @"";
-    int predecesor = 28;
-    int tarea = 29;
-    for (int i = 1; i <= 29; i++) {
-        for (int j = 1; j <= 29; j++) {
-            funcionObjetivo = [funcionObjetivo stringByAppendingString:[NSString stringWithFormat:@"X%02i%02i, ", i, j]];
-        }
-    }
-    NSLog(@"%@", funcionObjetivo);
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:@"http://teamwork.codingdiaries.com/processes" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSDictionary *json = [[responseObject objectForKey:@"data"] objectForKey:@"processes"];
@@ -78,7 +39,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"salesCell" forIndexPath:indexPath];
+    SalesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"salesCell" forIndexPath:indexPath];
     NSDictionary *object = [self.processes objectAtIndex:indexPath.row];
     
     cell.textLabel.text = [NSString stringWithFormat:@"%@", [[object allValues] objectAtIndex:0]];
